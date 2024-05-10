@@ -1,27 +1,23 @@
-# RecipeApp
+# Recipe Book & Shopping List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+This Angular project is designed to manage recipes and shopping lists efficiently, leveraging the powerful features of the Angular framework and TypeScript. It's perfect for anyone looking to simplify meal planning and shopping.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Recipe Management**: Users can add, edit, and delete recipes, as well as view details for each recipe.
+- **Shopping List Functionality**: Items from recipes can be added directly to a shopping list, which can be edited as needed.
+- **Dynamic Content Using Angular Directives**: Custom directives enhance the application's interactivity, allowing for dynamic updates to the UI.
+- **State Management with NgRx**: Implements NgRx for managing state, making the app more predictable and easier to maintain, especially as it grows.
 
-## Code scaffolding
+## Technical Details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- **Architecture**: Utilizes Angular's component-based architecture to ensure maintainability and scalability.
+- ![Project plan](/assets/Project-plan.png "Project plan")
+- **TypeScript**: All application code is written in TypeScript, providing type safety and making the code more robust and maintainable.
+- **Data Binding**: Demonstrates both one-way and two-way data binding, which is crucial for real-time updates between the application model and the view.
+- **Routing**: Angular Router is used for navigating between different views and handling application state.
+- **Pipes**: Custom pipes are used for transforming displayed values within templates, enhancing the flexibility of data presentation.
+- **HTTP Communication**: Integrates with REST APIs for backend data retrieval and management using Angular's HttpClient.
+- **Dependency Injection**: Leverages Angular's dependency injection framework to manage and inject services where needed, reducing coupling and increasing modularity.
+- **Modules**: Organized into Angular modules to encapsulate different aspects of the app, improving code organization and reusability.
+- **Performance Optimization**: Includes strategies for optimizing larger Angular applications, reducing load times and improving runtime efficiency.
