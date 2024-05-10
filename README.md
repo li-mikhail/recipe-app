@@ -12,7 +12,7 @@ This Angular project is designed to manage recipes and shopping lists efficientl
 ## Technical Details
 
 - **Architecture**: Utilizes Angular's component-based architecture to ensure maintainability and scalability.
-- ![Project plan](/assets/Project-plan.png "Project plan")
+- ![Project plan](/src/assets/Project-plan.png "Project plan")
 - **TypeScript**: All application code is written in TypeScript, providing type safety and making the code more robust and maintainable.
 - **Data Binding**: Demonstrates both one-way and two-way data binding, which is crucial for real-time updates between the application model and the view.
 - **Routing**: Angular Router is used for navigating between different views and handling application state.
